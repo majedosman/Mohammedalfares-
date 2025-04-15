@@ -25,8 +25,8 @@
     }
     .card img {
       width: 100%;
-      max-height: 400px;
-      object-fit: cover;
+      height: auto; /* لتعديل الحجم تلقائيًا بحيث لا تتقيد الصورة بالعرض */
+      object-fit: contain; /* لضمان عرض الصورة كاملة */
       border-radius: 20px;
       margin-bottom: 20px;
     }
