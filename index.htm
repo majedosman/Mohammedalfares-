@@ -5,11 +5,17 @@
   <title>دعوة زفاف محمد الفارس</title>
   <style>
     body {
-      background-color: #000;
+      background-color: #000; /* خلفية سوداء */
       font-family: 'Arial', sans-serif;
       text-align: center;
       padding: 20px;
       color: #fff;
+    }
+    h2 {
+      color: #90EE90; /* أخضر فاتح */
+    }
+    h3 {
+      color: #87CEFA; /* أزرق فاتح */
     }
     .card {
       background-color: #111;
@@ -22,19 +28,14 @@
     }
     .card img {
       width: 100%;
-      height: auto;
+      max-height: 400px;
+      object-fit: cover;
       border-radius: 20px;
       margin-bottom: 20px;
     }
-    p, h2, h3 {
-      margin: 10px 0;
-      font-size: 20px;
-      font-weight: bold;
+    p {
+      color: #fff;
     }
-    .green { color: #90ee90; }   /* أخضر فاتح */
-    .blue  { color: #87cefa; }   /* أزرق سماوي */
-    .pink  { color: #ffb6c1; }   /* وردي ناعم */
-
     button {
       display: block;
       width: 100%;
@@ -48,15 +49,15 @@
       transition: 0.3s;
     }
     .call {
-      background-color: #90ee90;
+      background-color: #FFB6C1; /* وردي */
       color: #000;
     }
     .whatsapp {
-      background-color: #87cefa;
+      background-color: #90EE90; /* أخضر */
       color: #000;
     }
     .location {
-      background-color: #ffb6c1;
+      background-color: #87CEFA; /* أزرق */
       color: #000;
     }
     button:hover {
@@ -68,19 +69,19 @@
 <body>
 
   <div class="card">
-    <img src="M.Alfaris.jpg" alt="دعوة زفاف محمد الفارس">
+    <img src="M.Alfaris.jpg" alt="صورة العريس محمد الفارس">
 
-    <p class="pink">ندعوكم لحضور حفل زفاف الشاب</p>
-    <h2 class="blue">محمد الفارس</h2>
-    <p class="green">في مدينة غازي عنتاب – شاهين بي</p>
-    <p class="pink">يوم الاثنين الموافق: 21/04/2025</p>
-    <p class="blue">بحضوركم تكتمل فرحتنا</p>
+    <p>ندعوكم لحضور حفل زفاف الشاب</p>
+    <h2>محمد الفارس</h2>
+    <p>في مدينة غازي عنتاب – شاهين بي</p>
+    <p>يوم الاثنين الموافق: 21/04/2025</p>
+    <p>بحضوركم تكتمل فرحتنا</p>
 
-    <h3 class="green">والد العريس: سميح أبو محمد</h3>
+    <h3>والد العريس: سميح أبو محمد</h3>
     <button class="call" onclick="window.location.href='tel:+905395225217'">اتصال بـ والد العريس</button>
     <button class="whatsapp" onclick="window.location.href='https://wa.me/905395225217'">واتساب والد العريس</button>
 
-    <h3 class="pink">العريس: محمد الفارس</h3>
+    <h3>العريس: محمد الفارس</h3>
     <button class="call" onclick="window.location.href='tel:+905342317116'">اتصال بـ العريس</button>
     <button class="whatsapp" onclick="window.location.href='https://wa.me/905342317116'">واتساب العريس</button>
 
